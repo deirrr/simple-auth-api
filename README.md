@@ -1,29 +1,29 @@
 # Simple Authentication API
 
-Proyek backend sederhana untuk belajar autentikasi menggunakan Node.js, Express, dan MongoDB.
-API ini mendukung proses registrasi, login, dan verifikasi identitas menggunakan JSON Web Token (JWT).
-Struktur project dibuat modular agar mudah dikembangkan.
+A simple backend project for learning authentication using Node.js, Express, and MongoDB.
+This API supports user registration, login, and identity verification using JSON Web Token (JWT).
+The project structure is modular to make it easy to extend and maintain.
 
-## Fitur Utama
+## ✨ Main Features
 
-* Registrasi user baru
-* Login menggunakan email dan password
-* Hashing password dengan bcrypt
-* Autentikasi menggunakan JWT
-* Struktur folder bersih dan scalable
-* Koneksi MongoDB menggunakan Mongoose
+- User registration  
+- Login with email and password  
+- Password hashing using bcrypt  
+- JWT-based authentication  
+- Clean and scalable folder structure  
+- MongoDB connection using Mongoose
 
 ---
 
-## Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-* Node.js + Express
-* MongoDB (via Docker, image `mongo:4.4`)
-* Mongoose ODM
-* bcryptjs (hash password)
-* jsonwebtoken (generate dan verifikasi JWT)
-* dotenv (environment variables)
-* nodemon (development)
+- Node.js + Express  
+- MongoDB (via Docker, image `mongo:4.4`)  
+- Mongoose ODM  
+- bcryptjs (password hashing)  
+- jsonwebtoken (JWT generation & verification)  
+- dotenv (environment variables)  
+- nodemon (development)
 
 ---
 
